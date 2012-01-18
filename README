@@ -1,4 +1,9 @@
+Rake tasks to identify the latitude and longitude of American
+cities.
+
 Takes the Geonames database here:
 http://download.geonames.org/export/dump/US.zip
 
-
+There are a series of rake files which help to process the data.
+Once it's placed in the database via rake geonames:import then
+you can use the scripts.
